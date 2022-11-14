@@ -1,4 +1,4 @@
-package main
+package ponteiros
 
 import "fmt"
 
