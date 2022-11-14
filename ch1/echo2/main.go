@@ -7,9 +7,9 @@ import (
 
 func main() {
 	s, sep := "", " "
-	for _, arg := range os.Args[0:] {
+	for i, arg := range os.Args[0:] {
 		s += sep + arg
-		sep = " "
+		fmt.Println("Indice: ", i, " Valor: ", arg)
 	}
 	fmt.Println(s)
 }
