@@ -14,4 +14,3 @@ fmt.Println(*p) //1
 *p = 2 // equivalente a x = 2
 fmt.Println(x) //2
 ```
-
