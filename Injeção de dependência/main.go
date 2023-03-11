@@ -52,7 +52,7 @@ func main() {
 	db := DefaultDatabse{}
 	greeter := NiceGreeter{}
 
-	p := newProgram(&db, greeter)
+	p := newProgram(db, greeter)
 
 	p.Execute()
 
