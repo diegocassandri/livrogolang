@@ -8,7 +8,6 @@ import (
 )
 
 func main() {
-
 	service := api.Service{
 		HTTPClient: http.DefaultClient,
 	}
