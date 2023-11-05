@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"livrogolang/ch4/github"
+	"livrogolang/ch4-tipos-compostos/github"
 	"log"
 	"os"
 )

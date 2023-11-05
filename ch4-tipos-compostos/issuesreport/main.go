@@ -1,7 +1,7 @@
 package main
 
 import (
-	"livrogolang/ch4/github"
+	"livrogolang/ch4-tipos-compostos/github"
 	"log"
 	"os"
 	"text/template"
